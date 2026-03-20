@@ -1,1 +1,170 @@
-# Token-Airdrop-DAPP
+# 🚀 Token Airdrop Tool dApp (Soroban + Stellar)
+
+## 📌 Project Description
+
+The **Token Airdrop Tool dApp** is a decentralized application built using the **Soroban smart contract platform** on the Stellar network. It enables users to distribute tokens efficiently to multiple recipients in a single transaction through an easy-to-use web interface.
+
+This project combines a **Soroban smart contract (backend)** with a **user-friendly frontend (built using Stellar Lab / Stellar IDE)** to provide a seamless experience for bulk token distribution. It eliminates the need for repetitive manual transfers and reduces transaction overhead, making token distribution faster, cheaper, and more reliable.
+
+---
+
+## 🎯 Problem Statement
+
+Distributing tokens manually to multiple users is:
+
+* Time-consuming
+* Error-prone
+* Inefficient
+
+This dApp solves these issues by enabling **batch token transfers in one click**.
+
+---
+
+## ⚡ What it does
+
+* Allows users to connect their wallet
+* Accepts a list of recipient addresses and token amounts
+* Executes batch token transfers using a Soroban smart contract
+* Displays transaction results through the UI
+
+---
+
+## ✨ Features
+
+* 🔗 **Wallet Integration** (Freighter / Stellar Wallet)
+* 📤 **Batch Token Airdrop** via smart contract
+* 🔐 **Secure Authorization** using Soroban
+* ⚡ **Single Transaction Execution**
+* 🖥️ **User-Friendly Interface (Stellar IDE UI)**
+* 🔁 **Single Transfer Option**
+* 📊 **Real-time Interaction with Blockchain**
+
+---
+
+## 🏗️ Architecture
+
+### 🔹 Smart Contract (Backend)
+
+* Written in **Rust using Soroban SDK**
+* Handles:
+
+  * Authorization
+  * Token transfers
+  * Batch processing
+
+### 🔹 Frontend (dApp UI)
+
+* Built using **Stellar IDE / Stellar Lab**
+* Interacts with contract using:
+
+  * Contract address
+  * Function calls (`airdrop`, `single_transfer`)
+
+---
+
+## 🛠️ Tech Stack
+
+* **Smart Contract:** Rust + Soroban SDK
+* **Frontend:** Stellar Lab / Stellar IDE
+* **Blockchain:** Stellar Network (Testnet/Mainnet)
+* **Wallet:** Freighter
+
+---
+
+## 🧠 How it Works
+
+1. User connects wallet
+2. Enters:
+
+   * Token contract address
+   * Recipient addresses
+   * Token amounts
+3. Frontend sends request to smart contract
+4. Contract:
+
+   * Verifies authorization
+   * Executes transfers
+5. Tokens are distributed instantly
+
+---
+
+## 📄 Smart Contract Functions
+
+### 🔹 `airdrop`
+
+Batch transfer tokens to multiple recipients
+
+### 🔹 `single_transfer`
+
+Transfer tokens to a single recipient
+
+---
+
+## ⚙️ Setup & Installation
+
+```bash
+# Clone repository
+git clone https://github.com/your-username/airdrop-dapp
+
+# Go to project folder
+cd airdrop-dapp
+
+# Build smart contract
+soroban contract build
+```
+
+---
+
+## 🚀 Deployment
+
+```bash
+soroban contract deploy \
+  --wasm target/wasm32-unknown-unknown/release/airdrop_contract.wasm \
+  --source YOUR_ACCOUNT \
+  --network testnet
+```
+
+---
+
+## 🌐 Deployed dApp & Contract
+
+* **dApp Link:** https://your-dapp-link.com
+* **Contract Address:** CBXY7ICF7XCUX72PPZYXEATHVIFJFSXTMUGKKCXPT5URXK5SNATFXIEY
+* **Network:** Stellar Testnet 
+* **Explorer:** https://stellar.expert/explorer/testnet/contract/CBXY7ICF7XCUX72PPZYXEATHVIFJFSXTMUGKKCXPT5URXK5SNATFXIEY
+
+---
+
+## 👤 Author
+
+* **Name:** ARIJIT DEBNATH
+* **GitHub:** https://github.com/ArijitDebnath069
+* **Email:** arijitdebnath008@gmail.com
+
+---
+
+## 🧪 Future Improvements
+
+* 📦 Merkle Airdrop (claim-based system)
+* 📊 Dashboard with analytics
+* ⏳ Scheduled airdrops
+* 📁 CSV upload for bulk recipients
+* 🌐 Better UI/UX design
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to fork this repository and submit pull requests.
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## ⭐ Acknowledgment
+
+Built using **Soroban (Stellar Smart Contracts)** and Stellar development tools to enable scalable decentralized applications.
