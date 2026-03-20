@@ -8,6 +8,9 @@ This project combines a **Soroban smart contract (backend)** with a **user-frien
 
 ---
 
+<img width="1882" height="866" alt="Screenshot 2026-03-20 152357" src="https://github.com/user-attachments/assets/30e7f09e-f352-4ccb-a101-c7cf2e389eb6" />
+
+
 ## 🎯 Problem Statement
 
 Distributing tokens manually to multiple users is:
