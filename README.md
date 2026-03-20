@@ -133,6 +133,9 @@ soroban contract deploy \
 * **Network:** Stellar Testnet 
 * **Explorer:** https://stellar.expert/explorer/testnet/contract/CBXY7ICF7XCUX72PPZYXEATHVIFJFSXTMUGKKCXPT5URXK5SNATFXIEY
 
+<img width="1886" height="866" alt="Screenshot 2026-03-20 145225" src="https://github.com/user-attachments/assets/9d7d39b2-0280-4687-84ad-5b61a9ff1ab3" />
+
+
 ---
 
 ## 👤 Author
