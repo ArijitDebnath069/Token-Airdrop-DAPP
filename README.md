@@ -128,7 +128,7 @@ soroban contract deploy \
 
 ## 🌐 Deployed dApp & Contract
 
-* **dApp Link:** https://your-dapp-link.com
+* **dApp Link:** 
 * **Contract Address:** CBXY7ICF7XCUX72PPZYXEATHVIFJFSXTMUGKKCXPT5URXK5SNATFXIEY
 * **Network:** Stellar Testnet 
 * **Explorer:** https://stellar.expert/explorer/testnet/contract/CBXY7ICF7XCUX72PPZYXEATHVIFJFSXTMUGKKCXPT5URXK5SNATFXIEY
