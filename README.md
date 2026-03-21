@@ -8,6 +8,12 @@ This project combines a **Soroban smart contract (backend)** with a **user-frien
 
 ---
 
+🌐 Live dApp
+
+👉 Access the Application:
+🔗 https://token-airdrop-app.vercel.app/
+
+
 <img width="1210" height="1448" alt="token-airdrop-app vercel app_" src="https://github.com/user-attachments/assets/349ffd80-954a-4993-a0dc-680a9ed53521" />
 
 
