@@ -66,7 +66,7 @@ This dApp solves these issues by enabling **batch token transfers in one click**
 
 ### 🔹 Frontend (dApp UI)
 
-* Built using **Stellar IDE / Stellar Lab**
+* Built using **React + typeScript + Next.js**
 * Interacts with contract using:
 
   * Contract address
