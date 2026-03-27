@@ -116,7 +116,7 @@ Transfer tokens to a single recipient
 
 ```bash
 # Clone repository
-git clone https://github.com/your-username/airdrop-dapp
+git clone https://github.com/ArijitDebnath069/airdrop-dapp
 
 # Go to project folder
 cd airdrop-dapp
